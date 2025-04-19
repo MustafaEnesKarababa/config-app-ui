@@ -1,0 +1,97 @@
+.table-container {
+  border: 1px solid #e3e6ef;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.config-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.config-table th {
+  background: #f8f9fa;
+  color: #5a677d;
+  font-weight: 600;
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 2px solid #e3e6ef;
+}
+
+.config-table td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #e3e6ef;
+  color: #4a5568;
+}
+
+.actions-column {
+  width: 120px;
+  text-align: center !important;
+}
+
+.actions-cell {
+  text-align: center !important;
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #e9f2ff;
+  color: #3d7df5;
+  font-size: 0.85em;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.status-badge.active {
+  background: #e6f4ee;
+  color: #1a875b;
+}
+
+.status-badge.inactive {
+  background: #fce8e6;
+  color: #c5221f;
+}
+
+.edit-button {
+  background: #e9f2ff;
+  color: #3d7df5;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.edit-button:hover {
+  background: #d3e3ff;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+}
